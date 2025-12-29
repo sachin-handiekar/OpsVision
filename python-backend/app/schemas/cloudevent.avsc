@@ -1,0 +1,57 @@
+{
+  "namespace": "io.cloudevents",
+  "name": "CloudEvent",
+  "type": "record",
+  "fields": [
+    {
+      "name": "specversion",
+      "type": "string"
+    },
+    {
+      "name": "type",
+      "type": "string"
+    },
+    {
+      "name": "source",
+      "type": "string"
+    },
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "name": "time",
+      "type": "string"
+    },
+    {
+      "name": "datacontenttype",
+      "type": ["null", "string"],
+      "default": null
+    },
+    {
+      "name": "subject",
+      "type": ["null", "string"],
+      "default": null
+    },
+    {
+      "name": "data",
+      "type": ["null", "string"],
+      "default": null
+    },
+    {
+      "name": "severity",
+      "type": ["null", "string"],
+      "default": null
+    },
+    {
+      "name": "category",
+      "type": ["null", "string"],
+      "default": null
+    },
+    {
+      "name": "correlation_id",
+      "type": ["null", "string"],
+      "default": null
+    }
+  ]
+}

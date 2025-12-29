@@ -1,0 +1,22 @@
+# OpsVisionBackend Dependencies
+
+# Web Framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
+websockets>=12.0
+python-dotenv>=1.0.0
+
+# Kafka
+confluent-kafka>=2.3.0
+fastavro>=1.9.0
+attrs>=23.0.0
+authlib>=1.0.0
+
+# AI/ML
+google-generativeai>=0.3.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+httpx>=0.25.0
