@@ -12,7 +12,7 @@
 
 OpsVision transforms raw operational events from multiple sources (GitHub, Kubernetes, Datadog, Jenkins, PagerDuty) into actionable intelligence using **Apache Kafka** for real-time streaming, **Apache Flink SQL** for stream processing, and **Google Gemini AI** for intelligent insights.
 
-**🏆 Built for [AI Partner Catalyst: Accelerate Innovation](https://ai-partner-catalyst-2024.devpost.com/) Hackathon**
+**🏆 Built for [AI Partner Catalyst: Accelerate Innovation](https://ai-partner-catalyst.devpost.com/) Hackathon**
 
 ---
 
